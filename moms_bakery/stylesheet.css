@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+}
+
+h1 {
+  color: #ffffee;
+  font-size: 70px;
+  font-family: lobster;
+  text-align: center;
+  background-image: url(img/frame.png);
+  height: 320px;
+  padding-top: 40px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+header {
+  background-image: url(img/bg_header.jpg);
+  height: 450px;
+  padding-top: 30px;
+}
+
+nav {
+  background-color: #663300;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffcc11;
+}
+
+nav ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.shop {
+  background-color: #ffffdd;
+  color: #663300;
+  padding: 30px;
+}
+
+.title {
+  font-size: 30px;
+  border-left-style: solid;
+  border-left-color: #663300;
+  border-left-width: 10px;
+  padding-left: 15px;
+  margin-bottom: 50px;
+}
+
+.shop p {
+  font-size: 20px;
+  background-color: #ffffff;
+  padding: 20px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.shop img {
+  float: right;
+}
+
+.photo {
+  padding: 30px;
+  background-image: url(img/wood.jpg);
+}
+
+.photo h2 {
+  color: #ffffff;
+  border-color: #ffcc11;
+}
+
+.photo p {
+  color: #ffffff;
+  clear: left;
+  margin: 20px;
+}
+
+.big {
+  background-color: #ffffff;
+  width: 500px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+  float: left;
+  transform: rotate(-5deg);
+}
+
+.small {
+  background-color: #ffffff;
+  width: 240px;
+  padding: 15px;
+  margin: 20px;
+  box-shadow: 10px 10px 20px #000000;
+}
+
+.box {
+  float: left;
+}
+
+.price {
+  padding: 30px;
+  background-image: url(img/wood.jpg);
+}
+
+.price h2 {
+  color: #ffffff;
+  border-left: 10px solid #ffcc11;
+}
+
+.price table {
+  background: #ffffdd;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.price td {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.price th {
+  border: 1px solid #000000;
+  padding: 10px;
+  text-align: left;
+  background: #ffcc11;
+}
+
+.season th {
+  background: #3dc;
+}
+
+.access {
+  background: #ffffdd;
+  color: #663300;
+  padding: 30px;
+  height: 400px;
+}
+
+.access h3 {
+  font-size: 50px;
+  font-family: lobster;
+  margin-top: 0;
+}
+
+.access div {
+  width: 50%;
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+  background: #663300;
+}

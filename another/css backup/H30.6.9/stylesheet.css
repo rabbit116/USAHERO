@@ -1,0 +1,256 @@
+html {
+  height: 100%;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+  background-color: #c0c0c0;
+  z-index: 2;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "ü‡ÉSÉVÉbÉN", YuGothic, "ÉqÉâÉMÉmäpÉS ProN W3", "Hiragino Kaku Gothic ProN", "ÉÅÉCÉäÉI", Meiryo, sans-serif,;
+  height: 100%;
+}
+
+.header-title {
+    position: absolute;
+    height: 86px;
+    width: 400px;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left:0;
+    margin: auto;
+    text-align: center;
+    
+  color: #ffffff;
+  font-family: "Abel";
+}
+
+h1 {
+  font-size: 60px;
+/*  font-weight: lighter;*/
+  letter-spacing: 0.15em;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom: 10px;
+
+  animation: fadeIn 2s ease 0s 1 normal;
+}
+
+.header-menu {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+    
+  animation: fadeIn2 3s ease 0s 1 normal;
+}
+
+.ul-menu {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.ul-menu:hover {
+  color: #fef263;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 67px;
+  text-align: center;
+  font-family: Abel;
+
+  background: #fef263;
+  opacity: 0.9;
+}
+
+.f-menu {
+  list-style: none;
+  margin: 0;
+  padding: 25px;
+}
+
+.f-menu-a {
+  color: #000000;
+  text-decoration: none;
+  padding: 2px 10px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+.space {
+  margin-bottom: 87px;
+}
+
+.title {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 0.05em;
+  font-family: Abel;
+/*  margin-top: 87px;*/
+}
+
+h3 {
+ color: #c0c0c0;
+ font-weight: lighter;
+}
+
+.home {
+  text-align: center;
+}
+
+.photo {
+  text-align: center;
+}
+
+.pet {
+  text-align: center;
+}
+
+.creator {
+  text-align: center;
+}
+
+.test {
+  margin-top: 300px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+.contents {
+  position: relative;
+  overflow: hidden;
+  margin: 10% 0;
+  padding: 80px 0;
+}
+
+.contents:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 80%;
+  margin: 3% -10% 0;
+  background: #c0c0c0;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  z-index: -1;
+}
+
+.contents_inner {
+  box-sizing: boder-box;
+  width: 100%;
+  max-width: 640px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 100px 10px 120px;
+  color: #fff;
+  text-align: center;
+}
+
+.contents:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 80%;
+  margin: 3% -10% 0;
+  background: #fef263;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  z-index: -2;
+}
+
+/*
+First Color
+#011931 kon
+#df6209 orange
+*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+footer {
+  text-align: center;
+  color: #ffffff;
+}
+
+.contents-footer {
+  position: relative;
+  overflow: hidden;
+  margin: 0% 0;
+  padding: 200px 0;
+}
+
+.contents-footer:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 100%;
+  margin: 3% -10% 0;
+  background: #c0c0c0;
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  -webkit-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  z-index: -1;
+}
+
+.contents_inner-footer {
+  box-sizing: boder-box;
+  width: 100%;
+  max-width: 640px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 100px 10px 120px;
+  color: #fff;
+  text-align: center;
+}
+
+.contents-footer:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120%;
+  height: 80%;
+  margin: 3% -10% 0;
+  background: #fef263;
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center;
+  -webkit-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  z-index: -2;
+}
+/*---------------------------------------------------------------------------------------------------------------------*/
+@keyframes fadeIn {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+@keyframes fadeIn2 {
+    0% {opacity: 0}
+    25% {opacity: 0}
+    100% {opacity: 1}
+}
